@@ -14,4 +14,49 @@ body {
 a {
   color: #5f6ad4; }
 
+header .logo {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em; }
+  header .logo a {
+    display: inline-block; }
+  header .logo .redes-sociales {
+    text-align: right;
+    line-height: 5em; }
+    header .logo .redes-sociales a {
+      border-radius: 50%;
+      width: 2.5em;
+      height: 2.5em;
+      text-align: center;
+      line-height: 2.5em;
+      display: inline-block;
+      background: navy;
+      color: #fff;
+      margin-left: 1.25em; }
+      header .logo .redes-sociales a.twitter {
+        bacckground: #3b5998; }
+      header .logo .redes-sociales a.linkedin {
+        bacckground: #0077B5; }
+      header .logo .redes-sociales a.github {
+        bacckground: #6e5494; }
+  header .logo .menu {
+    background: #5f6ad4;
+    margin-bottom: 1.25 em; }
+    header .logo .menu ul {
+      list-style: none;
+      overflow: hidden;
+      margin: 0;
+      padding: 0; }
+      header .logo .menu ul li {
+        float: left;
+        display: inline-block; }
+        header .logo .menu ul li a {
+          color: #fff;
+          display: inline-block;
+          padding: 1em 1.25em;
+          font-size: 0.87em;
+          color: #fff; }
+          header .logo .menu ul li a:hover {
+            text-decoration: none;
+            background: #7780da; }
+
 /*# sourceMappingURL=estilos.css.map */
