@@ -72,6 +72,8 @@ header .menu {
 
 .main .titulo_seccion > div {
   padding: 0; }
+.main .single-post .categorias {
+  margin-bottom: 1.875em; }
 .main .posts .post {
   margin-bottom: 1.875em; }
   .main .posts .post .contenedor {
@@ -139,9 +141,10 @@ header .menu {
       color: #fff;
       line-height: 1.125em;
       display: inline-block;
-      padding: 0.62em 0.937em;
-      background: #7780da;
-      text-decoration: none; }
+      padding: 0.62em 0.937em; }
+      .main .paginacion ul li a:hover {
+        background: #7780da;
+        text-decoration: none; }
 .main .paginacion .wp-pagenavi {
   margin-bottom: 1.25em; }
   .main .paginacion .wp-pagenavi .pages,
@@ -241,5 +244,11 @@ footer .copyright p {
   padding: 0.625;
   text-align: center;
   margin: 0; }
+
+@media screen and (max-width: 768px) {
+  header .logo {
+    text-align: center; }
+  header .redes-sociales {
+    display: none; } }
 
 /*# sourceMappingURL=estilos.css.map */
