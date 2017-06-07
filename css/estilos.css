@@ -249,6 +249,21 @@ footer .copyright p {
   header .logo {
     text-align: center; }
   header .redes-sociales {
-    display: none; } }
+    display: none; }
+  header .menu ul {
+    text-align: center; }
+    header .menu ul li {
+      float: none; }
+
+  .main .posts .post .contenedor .info .extracto {
+    height: auto; }
+
+  .sidebar {
+    display: none; }
+
+  .footer .menu ul {
+    text-align: center; }
+    .footer .menu ul li {
+      float: none; } }
 
 /*# sourceMappingURL=estilos.css.map */
